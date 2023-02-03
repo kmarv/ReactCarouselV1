@@ -1,12 +1,15 @@
 # React Carousel App
 
-this is a react caruosel app designed in react. it display information inform of a slide that will automatically switch depending on the time delay passed
+This is a react carousel app designed in react. it display information inform of a slide that will automatically switch depending on the time delay passed
 
 ## Usage
 
 1. add the carousel component in ypur src folder and import it the required file.
+```
+import Carousel from "../Carousel"
+```
 
-- For non image imformation eg number use the prop children and pass the array of information followed by the delay
+- For non images eg number use the prop children and pass the array of information followed by the delay
 
 #### Example
 
@@ -18,8 +21,8 @@ this is a react caruosel app designed in react. it display information inform of
 
 #### Example
 
-````images =["image1","image2","image3","image4"]
-<Carousel children={images} images={images} delay={1000}>```
+```images =["image1","image2","image3","image4"]
+<Carousel children={images} images={images} delay={1000}>
+```
 
-## [live Demo] (https://csb-1gl8mm.netlify.app/)
-````
+## [live Demo](https://csb-1gl8mm.netlify.app/)

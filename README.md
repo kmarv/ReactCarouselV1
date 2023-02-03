@@ -19,7 +19,7 @@ this is a react caruosel app designed in react. it display information inform of
 #### Example
 
 ````images =["image1","image2","image3","image4"]
-<Caruosel children={images} images={images} delay={1000}>```
+<Carousel children={images} images={images} delay={1000}>```
 
 ## [live Demo] (https://csb-1gl8mm.netlify.app/)
 ````
